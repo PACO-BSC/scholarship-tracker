@@ -1,0 +1,186 @@
+.scholarship-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--gray-300);
+}
+
+.scholarship-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.scholarship-card.urgent {
+  border-left-color: var(--danger);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.card-title-section {
+  flex: 1;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin: 0 0 4px 0;
+}
+
+.card-organization {
+  font-size: 14px;
+  color: var(--gray-500);
+  margin: 0;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.status-gray {
+  background: var(--gray-100);
+  color: var(--gray-700);
+}
+
+.status-blue {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.status-purple {
+  background: #e9d5ff;
+  color: #6b21a8;
+}
+
+.status-green {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-red {
+  background: #fee2e2;
+  color: #7f1d1d;
+}
+
+.card-content {
+  margin-bottom: 16px;
+}
+
+.card-amount {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.card-deadline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: var(--gray-50);
+  border-radius: 6px;
+  color: var(--gray-700);
+}
+
+.icon-warning {
+  color: var(--warning);
+}
+
+.icon-info {
+  color: var(--primary);
+}
+
+.card-requirements {
+  margin: 12px 0;
+  font-size: 13px;
+}
+
+.card-requirements strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--gray-700);
+}
+
+.card-requirements ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--gray-600);
+}
+
+.card-requirements li {
+  margin: 4px 0;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--gray-600);
+  margin: 8px 0;
+}
+
+.card-notes {
+  margin-top: 12px;
+  padding: 10px;
+  background: var(--gray-50);
+  border-left: 3px solid var(--gray-300);
+  border-radius: 4px;
+}
+
+.card-notes p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--gray-700);
+  line-height: 1.4;
+}
+
+.card-footer {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+}
+
+.btn-danger {
+  background: #fee2e2;
+  color: var(--danger);
+}
+
+.btn-danger:hover {
+  background: #fecaca;
+}
